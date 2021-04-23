@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "abc",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagerbomb092/NODEJS_BLOG.git"
+  },
+  "keywords": [
+    "nodejs",
+    "blog"
+  ],
+  "author": "Nghia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagerbomb092/NODEJS_BLOG/issues"
+  },
+  "homepage": "https://github.com/jagerbomb092/NODEJS_BLOG#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "i": "^0.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
